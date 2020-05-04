@@ -3,6 +3,6 @@
 #
 # jupyter tool
 #
-/usr/bin/invoke_app "$@" -t hubtoolshortname \
-                         -C "start_jupyter -t -T @tool hubtoolshortname.ipynb" \
+/usr/bin/invoke_app "$@" -t githubjupyter \
+                         -C "start_jupyter -t -T @tool spiro.ipynb" \
                          -u anaconda-6
